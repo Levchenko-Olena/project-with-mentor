@@ -1,3 +1,4 @@
+/*
 h1,
 h2,
 h3,
@@ -82,3 +83,302 @@ body {
 .hero-text {}
 
 .hero-btn {}
+*/
+
+/* Стилі для обнулення відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body{
+    background-color: #ffff;
+    font-family: "Roboto", sans-serif;
+    color: #2c2c2c;
+}
+
+/* обнулення базових властивостей списків (ul) */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* обнулення базових властивостей у посилань */
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+address {
+    font-style: normal;
+}
+
+button{
+    border: none;
+}
+
+.conteiner {
+        width: 1260px;
+        padding: 0 16px;
+        margin: 0 auto;
+}
+
+.flex-conteiner {
+    display: flex;
+}
+/*------------------------------------*/
+/*---------------HEADER---------------*/
+.navigation {
+    box-shadow: 0 4px 24px 0 rgba(105, 105, 105, 0.1);
+}
+
+.navigation-logo {
+    margin-right: auto;
+    padding: 10px 0;
+}
+
+.navigation-nav {
+}
+
+.navigation-list {
+    display: flex;
+    gap: 28px;
+}
+
+.header-nav-link {
+    padding: 28px 0;
+    font-size: 14px;
+    color: #2c2c2c;
+}
+.header-nav-link:hover,
+.header-nav-link:focus{
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #bbf330;
+}
+
+.navigation-btn {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 500;   
+    border-radius: 30px;
+    padding: 6px 17px;
+    min-width: 98px;
+    height: 32px;
+    font-size: 13px;
+    background: #bbf330;
+    text-align: right;
+    color: #2c2c2c;
+    cursor: pointer;   
+}
+
+.navigation-btn:hover,
+.navigation-btn:focus{
+    background: #ffe450;
+}
+
+/*----------------HERO-------------------*/
+
+.hero {}
+
+.hero-lock{
+    margin-right: auto;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px; 
+    max-width: 503px;
+    text-align: left;
+    padding-top: 159px;
+    margin-bottom: 28px;
+}
+
+.hero-text { 
+    line-height: 24px; 
+    margin-bottom: 40px;  
+    max-width: 511px;
+
+}
+
+.hero-btn {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    border-radius: 30px;
+    padding: 6px 17px;
+    min-width: 98px;
+    height: 32px;
+    background: #bbf330;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background: #ffe450;
+}
+
+/*----------------SPECIAL-------*/
+
+.special {
+    background: #ffe550;
+}
+
+.spacial-apple{
+    padding-top: 113px;
+    padding-bottom: 226px;
+    margin-right: auto;
+}
+
+.special-lock{
+
+}
+
+.spacial-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;  
+    max-width: 527px; 
+    padding-top: 196px;
+    margin-bottom: 20px;    
+}
+
+.spacial-text {
+    line-height: 24px; 
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.spacial-list {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.spacial-li:first-child {
+    margin-right: 67px;
+}
+
+.spacial-li-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 124px;
+}
+
+.spacial-li-text {
+    font-size: 14px;
+    line-height: 21px; 
+    max-width: 253px;
+}
+
+.special-btn {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+
+    border: 2px solid #7eb101;
+    border-radius: 30px;
+    padding: 10px 20px;
+    max-width: 106px;
+    height: 40px;
+    background: #fff;
+}
+
+.special-btn:hover,
+.special-btn:focus{
+    background: #bbf330;
+    border: none;
+}
+
+/*-----------------FAVORITE------------------*/
+
+.favorite {}
+
+.favorite-title {
+    font-weight: 700;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
+
+.favorite-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.favorite-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+    padding-bottom: 101px;
+
+}
+
+.favorite-img {}
+
+/*---------------------CUSTOMERS---------*/
+
+.customers {}
+
+.customers-title {}
+
+.customers-text {}
+
+.customers-list {}
+
+.customers-dude {}
+
+.customers-dude-text {}
+
+.customers-dude-title {}
+
+.customers-mini-text {}
+
+/*---------------------SUBSCRIBE------------*/
+
+.subscribe {}
+
+.subscribing-title {}
+
+.subscribe-text {}
+
+.subscribe-form {}
+
+.subscribe-btn {}
+
+/*---------------------FOOTER------------*/
+.footer {}
+
+.footer-list {}
+
+.footer-list-link {}
+
+.footer-text {}
+
+.footer-btn {}
+
+.footer-duble-text {}
+
+.footer-mini-link {}
+
+.footer-list-duble {}
+
+.footer-list-link-duble {}
+
+.footer-litle-text {}
