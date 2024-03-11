@@ -334,33 +334,135 @@ button{
 
 /*---------------------CUSTOMERS---------*/
 
-.customers {}
+.customers {
+    background: #ffe550;
+}
 
-.customers-title {}
+.customers-title {
+    font-weight: 700;
+    font-size: 42px;
+    padding-top: 140px;
+    margin-bottom: 20px;
+}
 
-.customers-text {}
+.customers-text {
+    margin-bottom: 33px;
+}
 
-.customers-list {}
+.customers-list {
+    display: flex;
+    padding-bottom: 126px;
+    gap: 139px;
+}
 
-.customers-dude {}
+.customers-dude {
+    border-radius: 0 30px 30px 30px;
+    max-width: 501px;
+    height: 231px;
+    background: #fefefe;
+}
 
-.customers-dude-text {}
+.customers-stars-img{
+    padding-top: 15px;
+    padding-left: 14px;
+    margin-bottom: 29px;
+}
 
-.customers-dude-title {}
+.customers-dude-text {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0 14px;
+    max-width: 473px;
+    margin-bottom: 41px;  
+}
 
-.customers-mini-text {}
+.customers-dude-lock{
+    display: flex;
+    padding-left: 14px;
+}
+
+.customers-dude-lock-mini{
+    border-right: 1px solid #7eb101;
+    padding-right: 16px;
+}
+
+.customers-dude-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px; 
+    margin-left: 16px;
+    margin-bottom: 2px;
+}
+
+.customers-mini-text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 16px;
+
+}
 
 /*---------------------SUBSCRIBE------------*/
 
 .subscribe {}
 
-.subscribing-title {}
+.subscribe-lock{
+padding-top: 222px;
+margin-right: auto;
 
-.subscribe-text {}
+}
 
-.subscribe-form {}
 
-.subscribe-btn {}
+.subscribing-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px; 
+    margin-bottom: 20px;
+}
+
+.subscribe-text {
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.subscribe-form {
+}
+
+.subscribe-input{
+    font-size: 12px;
+    line-height: 18px;
+
+    border: 0.85px solid #ffe550;
+    border-radius: 30px;
+    padding: 10px;
+    width: 395px;
+    height: 42px;
+
+    margin-right: 32px;
+
+}
+
+
+.subscribe-btn {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+
+    border-radius: 30px;
+    padding: 10px 20px;
+    max-width: 103px;
+    height: 42px;
+    background: #bbf330;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus{
+    background: #ffe450;
+}
+
+.subscribe-banan{
+    padding-top: 176px;
+    padding-bottom: 237px;
+}
 
 /*---------------------FOOTER------------*/
 .footer {}
